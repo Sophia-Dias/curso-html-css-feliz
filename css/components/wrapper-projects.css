@@ -1,0 +1,7 @@
+.wrapper-projects {
+    text-align: center;
+}
+
+.wrapper-projects .icon:nth-child(even) {
+    padding: 0px 150px;    
+}
