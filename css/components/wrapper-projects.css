@@ -2,6 +2,7 @@
     text-align: center;
 }
 
-.wrapper-projects .icon:nth-child(even) {
-    padding: 0px 150px;    
+.wrapper-projects img:nth-child(even) {
+    padding-right: 150px;
+    padding-left: 150px;
 }
