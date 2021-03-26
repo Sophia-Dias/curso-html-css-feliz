@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet"> 
 
@@ -151,7 +152,7 @@
         </div>
     </section>
     
-    <section class="main-section">
+    <section class="main-section -borderBlack">
         <h1 class="main-title -second">Sobre</h1>
 
         <section class="main-carousel">
@@ -206,7 +207,20 @@
         </p>
     </section>
 
-    <section class="main-footer">
+    <form action="">
+        <label class="main-label" for="name">Nome</label>
+        <input id="name" type="text">
+
+        <label class="main-label" for="email">Email</label>
+        <input id="email" type="email">
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea id="message"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer class="main-footer">
         <div class="wrapper-footer">
             <a href="https://www.youtube.com" target="_blank">
                 <img class="icon" src="img/img-footer/youtube.png" alt="Simbolo Youtube pixel art">
@@ -218,7 +232,7 @@
                 <img class="icon" src="img/img-footer/twitter.png" alt="Simbolo twitter pixel art">
             </a>
         </div>
-    </section>
+    </footer>
 
     <script src="javascript/components/main-carousel.js"></script>
 </body>
