@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/wrapper-projects.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet"> 
 
@@ -139,24 +143,70 @@
                 <img class="logo" src="img/img-projects/firedlabs.png" alt="Logo do FiredLabs">
             </a>
             <a href="https://www.collabcode.training" target="_blank">
-                <img class="logo-meio" src="img/img-projects/collabcode.png" alt="Logo do CollabCode">
+                <img class="logo" src="img/img-projects/collabcode.png" alt="Logo do CollabCode">
             </a>
             <a href="https://sophia-dias.github.io/curso-html-css-feliz/" target="_self">
                 <img class="logo" src="img/img-projects/portfolio.png" alt="Logo do Portfolio">
             </a>
         </div>
     </section>
+    
+    <section class="main-section">
+        <h1 class="main-title -second">Sobre</h1>
 
-    <footer class="main-footer">
-        <div class="wrapper-footer">
-            <a href="">
-                <img class="icon-footer" src="img/img-footer/twitter.png" alt="Simbolo Twitter pixel art">
-            </a>
-            <a href="">
-                <img class="icon-footer" src="img/img-footer/youtube.png" alt="Simbolo Youtube pixel art">
-            </a>
-        </div>
-    </footer>
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+
+            <div class="itens">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="img/img-carrossel/logo-locaweb.png" alt="Logo da Locaweb">
+                        </div>
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="img/img-carrossel/logo-caelum.png" alt="Logo da Caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class   ="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="img/img-carrossel/logo-getninjas.png" alt="Logo da GetNinjas">
+                        </div>
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="img/img-carrossel/logo-caelum.png" alt="Logo da Caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="img/img-carrossel/logo-impulso.png" alt="Logo da Impulso">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="img/img-carrossel/logo-collabcode.png" alt="Logo da CollabCode">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
+        
+        <p class="main-description">
+            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+        </p>
+    </section>
+
+    <script src="javascript/components/main-carousel.js"></script>
 </body>
 
 </html>

@@ -1,8 +1,5 @@
 .wrapper-projects {
     text-align: center;
-}
-
-.wrapper-projects .logo-meio {
-    padding-right: 150px;
-    padding-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
 }
