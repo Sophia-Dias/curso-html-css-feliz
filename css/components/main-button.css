@@ -19,7 +19,3 @@
     color: #FFF;
     font-size: 30px;
 }
-
-.main-button.-full:hover {
-    transform: scale(1.08);
-}
