@@ -2,10 +2,12 @@
     background-color: #4E4E4E;
 }
 
-.main-footer .icon-footer {
-    margin: 20px 20px;
-}
-
 .main-footer .wrapper-footer {
     text-align: center;
+}
+
+.main-footer .icon {
+    margin: 2.5px 10px;
+    height: 45px;
+    width: 45px;
 }
